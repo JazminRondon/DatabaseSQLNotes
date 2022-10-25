@@ -1,5 +1,5 @@
 # SQLEXAM
-///
+
 mysql> create table movie(
     -> ID int(10) unsigned NOT NULL AUTO_INCREMENT,
     -> Title varchar(50) NOT NULL DEFAULT '',
@@ -41,6 +41,7 @@ Query OK, 1 row affected (0.01 sec)
 mysql> select titles from movie where Genre LIKE '%i';
 ERROR 1054 (42S22): Unknown column 'titles' in 'field list'
 mysql> select * from movie;
+///
 +----+-------------------+---------+-------------+-----------+--------+
 | ID | Title             | Runtime | Genre       | IMBDScore | Rating |
 +----+-------------------+---------+-------------+-----------+--------+
@@ -54,6 +55,7 @@ mysql> select * from movie;
 |  8 | A Bronx Tale      |     110 | Crime       |      9.20 | R      |
 +----+-------------------+---------+-------------+-----------+--------+
 8 rows in set (0.00 sec)
+///
 
 mysql> select Title from movie where Genre LIKE '%i';
 +-------------------+
