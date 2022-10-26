@@ -82,4 +82,10 @@ DELETE-removes one or more rows from one table
 FROM clause defines the table you want to query 
 
 
+Ways to Constrain the Number of Results-
+
+WHERE Clause 
+
+Distinct qualifier (SELECT DISTINCT p.first_name FROM person p);will take all the values and wont show duplicates 
+cant be used for DISTINCT country names so it's not a repeated list
 
