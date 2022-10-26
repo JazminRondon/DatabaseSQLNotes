@@ -69,11 +69,17 @@ Ansi and ISO standards
 SQL COMMANDS
 
 
-SELECT-get data
+SELECT-get data, be more explicit is best-good practice is to qualify column name with table name(ex select person.first_name, person.last_name FROM person); 
+You can Aliasing the table(best practice) name with doing it like (select p.first_name, p.last_name FROM person p); 
+
 
 INSERT- add one or more rows into a table
 
 UPDATES-modifies one or more row in table
 
 DELETE-removes one or more rows from one table 
+
+FROM clause defines the table you want to query 
+
+
 
