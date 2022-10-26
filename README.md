@@ -56,3 +56,24 @@ It’s an DBMS designed for web apps and run on any platform. Used for ecommerce
 
 
 Absorbing significant increases in data volume, ensuring data security, keeping up with demand, managing and maintain database and infrastructure, removing limits on scalability, ensuring data residency
+
+
+SQL- manipulates sets of data-once you know SQL, other queries are easy.
+
+
+
+Ansi and ISO standards
+
+
+
+SQL COMMANDS
+
+
+SELECT-get data
+
+INSERT- add one or more rows into a table
+
+UPDATES-modifies one or more row in table
+
+DELETE-removes one or more rows from one table 
+
