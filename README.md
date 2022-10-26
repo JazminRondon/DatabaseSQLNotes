@@ -99,3 +99,6 @@ A single expression queries
 AND- combine two expression, if both are true the row is true
 
 OR-combines two expressin, if either is true the row is included
+
+BETWEEN acts on column and two values. Inclusive-includes two values.
+SELECT p.firstname, p.last_name FROM person p WHERE p.contacted BETWEEN 1 AND 20; (people contacted at least once but no more than 20)
