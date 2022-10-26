@@ -84,7 +84,7 @@ FROM clause defines the table you want to query
 
 Ways to Constrain the Number of Results-
 
-WHERE Clause 
+WHERE Clause - constrains the result set, comes after the FROM clause, contains boolean expresion
 
 Distinct qualifier (SELECT DISTINCT p.first_name FROM person p);will take all the values and wont show duplicates 
 cant be used for DISTINCT country names so it's not a repeated list
