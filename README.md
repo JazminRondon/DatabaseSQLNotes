@@ -97,3 +97,5 @@ Boolean operators
 A single expression queries 
 
 AND- combine two expression, if both are true the row is true
+
+OR-combines two expressin, if either is true the row is included
