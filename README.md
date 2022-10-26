@@ -91,3 +91,9 @@ Distinct qualifier- SELECT DISTINCT p.first_name FROM person p;
 will take all the values and wont show duplicates 
 cant be used for DISTINCT country names so it's not a repeated list
 
+
+Boolean operators
+
+A single expression queries 
+
+AND- combine two expression, if both are true the row is true
