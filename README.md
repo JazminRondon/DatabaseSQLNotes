@@ -109,4 +109,6 @@ LIKE- fuzzy matching. where the first name is LIKE 'J%'
 
 IN-multi-value operator 
 
-ORDER BY allows us to sorting the result set after the WHERE clause. Specify one or more columns 
+ORDER BY allows us to sorting the result set after the WHERE clause. Specify one or more columns. Seperate columns by commas. ASC (default) or specify DESC
+
+GROUP BY -allows mult columns into the selct list and still use a set function
